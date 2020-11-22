@@ -62,8 +62,8 @@ $('.addButton').on('click',()=>{
             logoType:'text',
             url:url
         })
+        render()
     }
-    render()
 })
 
 window.onbeforeunload=()=>{

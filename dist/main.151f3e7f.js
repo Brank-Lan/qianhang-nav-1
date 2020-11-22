@@ -167,9 +167,8 @@ $('.addButton').on('click', function () {
       logoType: 'text',
       url: url
     });
+    render();
   }
-
-  render();
 });
 
 window.onbeforeunload = function () {
@@ -189,4 +188,4 @@ $(document).on('keypress', function (e) {
   }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.a7af4e5e.js.map
+//# sourceMappingURL=main.151f3e7f.js.map
