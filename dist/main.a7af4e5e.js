@@ -181,10 +181,12 @@ $(document).on('keypress', function (e) {
   var key = e.key;
 
   for (var i = 0; i < hashMap.length; i++) {
-    if (hashMap[i].logo.toLowerCase() === key) {
+    var logo = simplifyUrl(hashMap[i].url)[0];
+
+    if (logo.toLowerCase() === key) {
       window.open(hashMap[i].url);
     }
   }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.5af905c4.js.map
+//# sourceMappingURL=main.a7af4e5e.js.map

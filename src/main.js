@@ -74,7 +74,8 @@ window.onbeforeunload=()=>{
 $(document).on('keypress',(e)=>{
     const {key} = e
     for(let i=0;i<hashMap.length;i++){
-        if(hashMap[i].logo.toLowerCase() === key){
+        let logo = simplifyUrl(hashMap[i].url)[0]
+        if(logo.toLowerCase() === key){
             window.open(hashMap[i].url)
         }
     }
