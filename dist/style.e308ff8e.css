@@ -9,7 +9,7 @@ img{max-width: 100%;max-width: 100%;}
 /*style*/
 body{
     background-color:  #eee;
-    background-image: url("th.1d564a51.jpg");
+    background-image: url("/th.8b5e85df.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -104,9 +104,12 @@ body{
     cursor: pointer;
     transition: all 0.5s;
 }
-.siteList .site:hover{
-    transform: scale(1.05);
+@media (min-width:500px){
+    .siteList .site:hover{
+        transform: scale(1.05);
+    }
 }
+
 .siteList .site > .logo{
     width:32px;
     height:32px;
@@ -149,8 +152,10 @@ body{
     transition: all 0.5s;
 }
 
-.siteList .addButton:hover {
-    transform: scale(1.05);
+@media (min-width:500px){
+    .siteList .addButton:hover {
+        transform: scale(1.05);
+    }
 }
 
 .siteList .addButton .icon{
@@ -171,4 +176,4 @@ body{
     margin-top: 10px;
 }
 
-/*# sourceMappingURL=style.36f80f42.css.map */
+/*# sourceMappingURL=/style.e308ff8e.css.map */

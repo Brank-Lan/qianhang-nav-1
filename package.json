@@ -1,5 +1,26 @@
 {
+  "script":{
+    "build": "rm -rf dist && parcel build src/index.html --no-minify --public-url ./"
+  },
   "devDependencies": {
     "cssnano": "^4.1.10"
-  }
+  },
+  "name": "nav-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wulanxiliaoliao/qianhang-nav-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wulanxiliaoliao/qianhang-nav-1/issues"
+  },
+  "homepage": "https://github.com/wulanxiliaoliao/qianhang-nav-1#readme",
+  "description": ""
 }
